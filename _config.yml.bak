@@ -34,9 +34,6 @@ layout_home_page: true # Homepage layout ( two layout is available, you can set 
 
 featured-post-slider: true # You can enable or disable the featured-post-slider using true or false values.
 
-
-excerpt_separator: <!--more-->
-
 #-------------------------------
 # Hero Section
 hero:
