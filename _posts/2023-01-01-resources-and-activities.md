@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resources
-date: 2022-01-01 10:00
+date: 2023-01-01 10:00
 description: Resources
 featured: true
 image: "images/resources.jpg"
