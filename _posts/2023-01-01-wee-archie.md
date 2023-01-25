@@ -4,6 +4,7 @@ title: Wee Archie
 date: 2023-01-01 10:00
 description: Resources
 featured: true
+tall-image: "images/wee-archie-tall.jpg"
 image: "images/wee-archie.jpg"
 categories: 
   - Activities

@@ -3,7 +3,8 @@ layout: post
 title: Resources
 date: 2023-01-01 10:00
 description: Resources
-featured: true
+featured: 
+tall-image: "images/resources tall.jpg"
 image: "images/resources.jpg"
 categories: 
   - Activities

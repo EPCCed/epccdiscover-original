@@ -5,6 +5,7 @@ date: 2023-01-01 10:00
 description: What is a supercomputer?
 author: fred
 featured: true
+tall-image: "images/archer2 inside tall.jpg"
 image: "images/archer2 inside.jpg"
 categories: 
   - Hardware

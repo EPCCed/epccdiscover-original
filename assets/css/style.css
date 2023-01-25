@@ -338,6 +338,10 @@ a:hover, a.text-dark:hover {
   background: #fdefe6 !important;
 }
 
+.bg-secondary {
+  background: #ffeeac !important;
+}
+
 .text-primary {
   color: #ff6f00 !important;
 }
