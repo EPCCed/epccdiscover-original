@@ -24,6 +24,13 @@ menu:
        url: https://outreach.epcc.ed.ac.uk/
   - name: About
     url: /about/
+    submenu:
+     - name: EPCC Discover and Learn
+       url: /about/
+     - name: EPCC
+       url: https://www.epcc.ed.ac.uk/
+     - name: ARCHER2
+       url: https://www.archer2.ac.uk
   - name: Contact
     url: /contact/
 
