@@ -6,7 +6,7 @@ description: Resources
 featured: 
 tall-image: "images/resources tall.jpg"
 image: "images/wordsearches.jpg"
-author: clair
+author: Clair
 categories: 
   - Activities
 ---
