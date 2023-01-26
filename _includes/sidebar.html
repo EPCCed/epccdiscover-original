@@ -14,7 +14,13 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          <li class="list-inline-item">Post By {{site.author.name | split: ' ' | first}}</li>
+          <li class="list-inline-item">
+					    {% if post.author %}
+								 Post by {{post.author}}
+							{% else %}
+								 Post by {{site.author.name}}
+							{% endif %}
+					</li>
           <li class="list-inline-item">{{post.date | date: "%B %-d, %Y"}}</li>
         </ul>
         <h6><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h6>

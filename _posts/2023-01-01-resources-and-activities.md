@@ -22,5 +22,4 @@ Further details and explanations can be found in the "What is a supercomputer?",
 -     Puzzle sheet: ARCHER-related colouring sheet and puzzles.
 -     Discover and learn about supercomputing: overview of EPCC's outreach activities.
 -     Postalsort material: post-sorting stamps and post-sorting labels.
--     ARCHER wordsearch: available in junior and adult versions.
-
+-     ARCHER2 wordsearch: Challenge yourself with our [ARCHER2 wordsearch]({{ base.url }}/docs/archer2-wordsearch.pdf) or [ARCHER2 Junior wordsearch]({{ base.url }}/docs/archer2-junior-wordsearch.pdf) puzzles.
