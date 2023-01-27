@@ -4,7 +4,7 @@ title: Resources
 date: 2023-01-01 10:00
 description: Resources
 featured: true
-tall-image: "images/working in parallel tall.jpg"
+tall-image: "images/working in parallel tall2.jpg"
 image: "images/working in parallel.jpg"
 categories: 
   - Activities
