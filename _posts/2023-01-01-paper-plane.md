@@ -3,7 +3,7 @@ layout: post
 title: Paper plane
 date: 2023-01-01 10:00
 description: Paper plane
-featured: true
+featured: 
 tall-image: 
 image: 
 categories: 
