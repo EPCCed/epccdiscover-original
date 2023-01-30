@@ -5,15 +5,21 @@ date: 2023-01-01 10:00
 description: Paper plane
 featured: 
 tall-image: 
-image: 
+image: images/PaperPlaneActivity.jpg
 categories: 
   - Activities
 ---
 
 
+You can make our ARCHER2 paper plane.
+
+Print off the [template sheet]({{ base.url }}/docs/PaperPlane.pdf), double sided.
 
 
-Folding instructions
 
-https://www.foldnfly.com/50.html#The-Raven
+Then follow the folding instructions, folding along the numbered lines in order.
+
+<img src="{{ base.url }}/images/PaperPlaneFolding.jpg" width="80%" align="center">
+
+
 
