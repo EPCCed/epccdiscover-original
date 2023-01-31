@@ -1,7 +1,7 @@
 ---
 #-------------------------------
 # General Site Settings
-baseurl: "/epccdiscover" # The subpath of your site, e.g. /blog
+baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://epcced.github.io/epccdiscover/" # The base hostname & protocol for your site, e.g. http://example.com
 
 title: Discover and Learn
