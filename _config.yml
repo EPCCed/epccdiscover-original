@@ -1,7 +1,7 @@
 ---
 #-------------------------------
 # General Site Settings
-baseurl: "/epccdiscover" # The subpath of your site, e.g. /blog
+baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://epcced.github.io/epccdiscover" # The base hostname & protocol for your site, e.g. http://example.com
 
 title: Discover and Learn
@@ -17,15 +17,15 @@ menu:
   - name: Topics
     submenu:
      - name: Hardware
-       url: ./category/hardware/
+       url: /category/hardware/
      - name: Activities
-       url: ./category/activities/
+       url: /category/activities/
      - name: ARCHER2 EPCC outreach online interactive site
        url: https://outreach.epcc.ed.ac.uk/
   - name: About
-    url: ./about/
+    url: /about/
   - name: Contact
-    url: ./contact/
+    url: /contact/
 
 # *** NOTE ***
 # You can add submenus. For example:
@@ -48,7 +48,7 @@ excerpt_separator: <!--more-->
 #-------------------------------
 # Hero Section
 hero:
-  hero-subtitle: I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print.
+  hero-subtitle: EPCC and ARCHER2 Outreach Team
   hero-banner: /assets/images/banner-img.png # Add your banner image '/assets/images/'
 
 #-------------------------------
@@ -59,14 +59,14 @@ author:
 #-------------------------------
 # Contact Info
 contact:
-  email: l.smith@epcc.ed.ac.uk
-  phone: +44 (0)131 650 5030
+#  email: l.smith@epcc.ed.ac.uk
+#  phone: +44 (0)131 650 5030
   address:
     city: Edinburgh
     street: Bayes Centre, 47 Potterrow, Edinburgh EH8 9BT
 
 # Contact Form
-contact-form: l.smith@epcc.ed.ac.uk
+# contact-form: l.smith@epcc.ed.ac.uk
 
 # Social links
 social:
