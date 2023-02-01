@@ -7,7 +7,8 @@ url: "https://discover.epcc.ed.ac.uk" # The base hostname & protocol for your si
 title: Discover and Learn
 logo: /assets/images/logo.png # You can add own logo
 description: Discover and Learn about ARCHER2 and supercomputers # Add your awesome description
-copyright: Copyright 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
+website_copyright: Website © Design & Developed by [EPCC](https://epcc.ed.ac.uk).
+template_copyright: Website template Copyright 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
 # Preloader
 preloader: true # To disable preloader change value to false
 
