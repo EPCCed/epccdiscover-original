@@ -13,7 +13,7 @@ preloader: true # To disable preloader change value to false
 
 menu:
   - name: Home
-    url: /:baseurl
+    url: /
   - name: Topics
     submenu:
      - name: Hardware
