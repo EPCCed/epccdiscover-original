@@ -1,8 +1,8 @@
 ---
 #-------------------------------
 # General Site Settings
-baseurl: "/epccdiscover" # The subpath of your site, e.g. /blog
-url: "https://epcced.github.io" # The base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "discover.epcc.ed.ac.uk " # The base hostname & protocol for your site, e.g. http://example.com
 
 title: Discover and Learn
 logo: /assets/images/logo.png # You can add own logo
