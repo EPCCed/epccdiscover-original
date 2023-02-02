@@ -29,10 +29,10 @@
     {% endfor %}
   </div>
   <div class="widget">
-    <h6 class="mb-4">CATEGORIES</h6>
+    <h6 class="mb-4">TOPICS</h6>
     <ul class="list-inline tag-list">
       {% for category in site.categories %}
-      <li class="list-inline-item m-1"><a href="{{ 'category/' | relative_url }}{{ category | first | slugify }}">{{ category | first }}</a></li>
+      <li class="list-inline-item m-1"><a href="{{ 'topics/' | relative_url }}{{ category | first | slugify }}">{{ category | first }}</a></li>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </ul>

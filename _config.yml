@@ -17,16 +17,18 @@ menu:
     url: /
   - name: Topics
     submenu:
+     - name: All Topics
+       url: /topics/
      - name: Hardware
-       url: /category/hardware/
+       url: /topics/hardware/
      - name: Activities
-       url: /category/activities/
+       url: /topics/activities/
      - name: ARCHER2 EPCC outreach online interactive site
        url: https://outreach.epcc.ed.ac.uk/
   - name: About
     url: /about/
-  - name: Contact
-    url: /contact/
+#  - name: Contact
+#    url: /contact/
 
 # *** NOTE ***
 # You can add submenus. For example:
