@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Resources
-date: 2023-01-01 10:00
+title: Word Searches
+date: 2023-01-25 10:00
 description: Resources
 featured: 
-tall-image: "images/resources tall.jpg"
+tall-image: 
 image: "images/wordsearches.jpg"
 author: Clair
 categories: 
@@ -13,15 +13,15 @@ categories:
 
 ## Challenge yourself 
 
-with our [ARCHER2 wordsearch]({{ base.url }}/docs/archer2-wordsearch.pdf) 
+to one of our wordsearches
 
-or pick one of our 
+<!--more-->
 
-## ARCHER2 Junior wordsearchs
+- [Circle]({{ base.url }}/docs/discover-wordsearch-circle.pdf)
+- [Clover]({{ base.url }}/docs/discover-wordsearch-clover.pdf)
+- [Diamond]({{ base.url }}/docs/discover-wordsearch-diamond.pdf)
+- [Heart]({{ base.url }}/docs/discover-wordsearch-heart.pdf)
+- [Smile]({{ base.url }}/docs/discover-wordsearch-smile.pdf)
+- [Star]({{ base.url }}/docs/discover-wordsearch-star.pdf)
+- [Triangle]({{ base.url }}/docs/discover-wordsearch-triangle.pdf)
 
-- [Smile]({{ base.url }}/docs/archer2-junior-wordsearch.pdf)
-- [Clover]({{ base.url }}/docs/archer2-junior-wordsearch-clover.pdf)
-- [Diamond]({{ base.url }}/docs/archer2-junior-wordsearch-diamond.pdf)
-- [Heart]({{ base.url }}/docs/archer2-junior-wordsearch-heart.pdf)
-- [Star]({{ base.url }}/docs/archer2-junior-wordsearch-star.pdf)
-- [Triangle]({{ base.url }}/docs/archer2-junior-wordsearch-triangle.pdf)

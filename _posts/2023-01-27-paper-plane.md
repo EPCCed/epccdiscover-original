@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Paper plane
-date: 2023-01-01 10:00
+date: 2023-01-27 10:00
 description: Paper plane
 featured: 
 tall-image: 
+author: Clair
 image: images/PaperPlaneActivity.jpg
 categories: 
   - Activities
@@ -13,7 +14,7 @@ categories:
 
 You can make our ARCHER2 paper plane.
 
-Print off the [template sheet]({{ base.url }}/docs/PaperPlane.pdf), double sided.
+Print off the [template sheet]({{ base.url }}/docs/paper-plane-discover.pdf), double sided.
 
 
 
