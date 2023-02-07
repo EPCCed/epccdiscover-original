@@ -27,7 +27,7 @@ Now you can launch your plane on a test flight: hopefully it will glide graceful
 
 Imagine the issues testing a new full-size plane, though.  The time required to build it, the expense, and the danger to those involved in testing, is massive.  
 
-Creating a computer simulation also takes time, but, once created, it can be tested without danger, and small changes can easily be made and tested until a promising version can be build, with confidence that it is likely to be successful.
+Creating a computer simulation also takes time, but, once created, it can be tested without danger, and small changes can easily be made and tested until a promising version can be built, with confidence that it is likely to be successful.
 
 Simulations can also be used in the development and testing of many other huge engineering projects.
 
