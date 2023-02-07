@@ -339,7 +339,13 @@ a:hover, a.text-dark:hover {
 }
 
 .bg-secondary {
-  background: #ffeeac !important;
+  background: #ffffff !important;
+  border-top-color: #f0b323;
+  border-top-width: 8px;
+  border-top-style: solid;
+  border-bottom-color: #f0b323;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
 }
 
 .text-primary {
