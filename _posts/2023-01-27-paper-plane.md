@@ -33,7 +33,7 @@ Simulations can also be used in the development and testing of many other huge e
 
 
 
-<img src="http://www.archer.ac.uk/about-archer/news-events/events/image-comp/gallery-2015/15_Entry_800.jpg" width="60%" align="center">
+<img src="{{site.baseurl}}/images/2015_15_Entry_800.jpg" width="60%" align="center">
 
 <p align=center>Delayed detached-eddy simulation of a large civil aircraft in transonic flow
 <br>
@@ -42,14 +42,14 @@ Simulations can also be used in the development and testing of many other huge e
 
 
 
-<img src="http://www.archer.ac.uk/about-archer/news-events/events/image-comp/gallery-2018/07_Entry_800.jpg" width="60%" align="center">
+<img src="{{site.baseurl}}/images/2018_07_Entry_800.jpg" width="60%" align="center">
 
 <p align=center>Turbulence-resolving simulation of the wake behind two in-line wind turbines 
 <br>
 <i>Georgios Deskos, Department of Aeronautics, Imperial College London</i></p>
 
 
-<img src="http://www.archer.ac.uk/about-archer/news-events/events/image-comp/gallery-2015/29_Entry_800.jpg" width="60%" align="center">
+<img src="{{site.baseurl}}/images/2015_29_Entry_800.jpg" width="60%" align="center">
 
 
 <p align=center>Music, order and chaos in a combustion chamber
