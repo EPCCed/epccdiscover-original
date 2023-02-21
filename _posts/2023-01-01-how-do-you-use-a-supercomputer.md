@@ -2,7 +2,7 @@
 layout: post
 title: How do you use a supercomputer?
 date: 2023-01-01 10:00
-description: How do you use a supercomputer?
+description: Resources
 featured: true
 tall-image: "images/archer2 in use tall.jpg"
 image: "images/archer2 in use.jpg"

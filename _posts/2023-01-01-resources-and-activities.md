@@ -21,7 +21,7 @@ Further details and explanations can be found in the "What is a supercomputer?",
     - Why are they important?  
     - How do you use one? 
 -     [ARCHER2 wordsearches]({{ base.url }}/activities/2023/01/25/wordsearches/): Challenge yourself with our puzzles.
-
+- [Parallel Sorting game]({{ base.url }}/activities/2023/01/01/parallel-sort/) shows how parallel processing can speed things up
 
 <!--
 -     Supercomputing app flyer: used to encourage use of our supercomputing app game which is run at events.

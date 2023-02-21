@@ -1,46 +1,47 @@
 ---
 layout: post
 title: Wee Archie
-date: 2023-01-01 10:00
+date: 2023-01-10 10:00
 description: Resources
 featured: true
-tall-image: "images/wee-archie-tall.jpg"
-image: "images/wee-archie.jpg"
+tall-image: "images/wee-archie-2-tall.jpg"
+image: "images/wee-archie-2.jpg"
 categories: 
-  - Activities
   - Hardware
+  - Activities
 ---
 
 
-Wee Archie is a suitcase-sized supercomputer designed and built to explain what a supercomputer is.
+ARCHER2 is made of 23 cabinets containing 5,848 nodes. It requires specialist staff and facilities to run, plus a massive power supply - it's not possible to transport parts of it to science festivals and other events! For that reason, we have created Wee Archie to help teach people of all ages about Supercomputers.
 
-![image]({{ site.baseurl }}/images/wee-boy.jpg)
-{:  style="width: 30%" 
-alt="Wee Archie" 
-title="Wee Archie"}
+## Hardware
 
-Wee Archie’s big brother, [ARCHER2](https://www.archer2.ac.uk) (link is external), takes up an entire building, with special floors to take its weight because it is so heavy. Find out more about Wee Archie from [this video](https://www.youtube.com/watch?v=5zmNE6czhYo) (link is external).
+Wee Archie is made-up of 18 Raspberry Pi computers, which behave like supercomputer nodes. Each one is a tiny, single-board computer, size 85mm x 56mm x 17mm. Each has a central processing unit (CPU) to execute computer code, with 4 cores, meaning a node can run 4 different processes in parallel. ARCHER2 nodes are much larger than this - they have 2 CPUs with 128 cores total - more than the whole of Wee Archie. 16 of the nodes in Wee Archie are compute nodes, the other two are controller nodes.
 
 
+<p align="center">
+  <img src="{{ base_url }}/images/wee-archie-3.jpg" width="100%" title="Wee Archie Blue, connected to a laptop running the aerofoil simulation">
+  <figcaption>(Image by Roberto Ricciuti).</figcaption>
+</p>
 
-<div>
 
-<iframe title="Video"  width="1000" height="560" src="https://www.youtube.com/embed/5zmNE6czhYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Each node also has a board of coloured LED lights that have been programmed to show the status of each node. There are 4 bars to indicate usage for each CPU core, plus others for memory, temperature, and reading and writing data to storage.
 
-</div>
+The Raspberry Pis are able to communicate with each other with a series of Ethernet cables and 3 switches. Each node has 1GB on-board memory that is not accessible to the other 17 nodes. In order to share data with other nodes, they must send messages to one another across the Ethernet network. Programs on ARCHER2 are run in the same way, but the network (known as the interconnect) is much faster.
 
-## How Wee Archie works
+Wee Archie requires more power than a usual PC or laptop does to work. Each individual node and each switch needs its own power supply, there are a multisocket adaptors plus a transformer so Wee Archie can get the power it needs from one power socket.
 
-Wee Archie is constructed from 18 Raspberry Pi 2’s, a network switch, a power supply unit (PSU) and Ethernet cables.  Each Pi can calculate 93 million (that’s 93,000,000) instructions per second. Theoretically Wee Archie can therefore do 1,674,000,000 instructions per second if all of the Pi’s are used together at the same time!!
+All these parts are housed in a clear perspex case so people can see all of the component parts.
 
-Wee Archie's big brother ARCHER has 4920 nodes, many network switches and its own special power supply from the power companies! ARCHER can calculate 1.6 x 1015 (1,600,000,000,000,000 or 16 followed by 15 zeroes!) instructions per second.
+## Apps
+There are currently two games available for Wee Archie for users to play. They are inspired by real life simulation experiments that were run on the previous ARCHER system, and designed to show users the kind of real-world problems scientists use supercomputers to solve. They are also good examples of how computer simulations make design and testing quicker, safer, and cheaper than doing the same experiments in real life.
+### 1. Design an Aerofoil
+An aerofoil is the cross-section of an aeroplane wing. The user uses three sliders to experiment with different angles, curvatures, and thicknesses and their impact on take-off and fuel consumption. As well as calculating the lift and drag properties of each design, the game makes a small animation, demonstrating whether an aeroplane with this design can take off (or not!) and how far it can fly on a full tank of petrol. Many designs are only good for one of the two!
 
-Each Pi has four cores, each capable of calculating, which can all see the same information, as they all reside on the same device. This is similar to your multicore laptop or phone: multiple processes run at the same time, allowing more than one thing to happen at once. Each core can see all the same information.
+### 2. Coastal Defenses
+The user is given a budget, and a coastal town prone to tidal waves, and is asked to place defences in the sea to reduce the size much as possible. The smaller the waves, the smaller the cost of repairs to damaged buildings after the emergency. The further from the coast and the deeper the ocean, the more expensive each defence becomes, so it's important to weigh up the cost versus effectiveness of each placement.
 
-The nodes on ARCHER each have 24 cores. That means that ARCHER has a total of 118,080 cores.
+Once the user has placed their defences, Wee Archie simulates a wave approaching, and how the height is affected by the user's design. It also calculates the cost of damage vs no defences, and savings made after five disasters.
 
-16 of the Pi’s are ‘worker’ nodes, resulting in 16x4 (or 64) cores for any job to run on. To use all 64 cores we run a problem in ‘parallel’ so that we use parallel computing.
 
-The final two Raspberry Pi’s are management nodes: they help us run the other 16 nodes, schedule jobs and allow us to interact with the ‘worker’ nodes.  This is the same as on a supercomputer where a person cannot interact directly with worker nodes, but instead submits jobs to be run on the supercomputer to the login or management nodes.
-
-Addendum: you can find instructions on how to configure your very own [Raspberry Pi cluster here](https://epcced.github.io/wee_archlet/) (link is external).
+You can find instructions on how to configure your very own [Raspberry Pi cluster here](https://epcced.github.io/wee_archlet/) (link is external).
