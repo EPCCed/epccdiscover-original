@@ -20,6 +20,6 @@ For example, supercomputers are used to:
 - provide weather forecasts; 
 - to help create new medicines; 
 - to reduce pollution from planes, boats and cars;
--  - to help design new ways of generating environmentally friendly forms of energy. 
+- to help design new ways of generating environmentally friendly forms of energy. 
 
 
