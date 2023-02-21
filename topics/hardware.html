@@ -21,7 +21,7 @@ layout: default
         <div class="row masonry-container pt-5">
           {% assign hardware_posts = site.posts | where_exp: "post", " post.categories contains 'Hardware' " %}
           {% for post in hardware_posts %}
-					{{ post.title }}
+
           <div class="col-sm-6 mb-5">
             <article class="text-center">
               <img class="img-fluid mb-4" src="{{post.image | relative_url }}" alt="{{post.title}}">
