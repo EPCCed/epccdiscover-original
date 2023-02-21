@@ -17,10 +17,6 @@ Computer algorithms are a set of step-by-step instructions to be performed by a 
 
 The computer languages used on a supercomputer are similar to those of a normal computer. However there are often additional options to describe how you share information and send messages between the coupled computers. 
 
-## Post sorting
 
-Learn about how the post office uses algorithms used on the fastest supercomputers in the world to send you your mail! Learn more about mail sorting and parallel algorithms here.
 
-## Supercomputing word search
 
-How many supercomputing terms can you recognise? Can you find them in this word search? We have created two fun word searches - one for adults and one for children.
