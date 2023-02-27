@@ -1,6 +1,5 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
-
 PROJECT:	Project Name
 VERSION:	Versoin Number
 -------------------------------------------------------------------*/
@@ -20,13 +19,13 @@ body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 15px;
   color: #585757;
 }
 
 p, .paragraph {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
@@ -44,26 +43,26 @@ h1, .h1 {
 
 @media (max-width: 767px) {
   h1, .h1 {
-    font-size: 45px;
+    font-size: 55px;
   }
 }
 
 h2, .h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 @media (max-width: 767px) {
   h2, .h2 {
-    font-size: 35px;
+    font-size: 45px;
   }
 }
 
 h3, .h3 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h4, .h4 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h5, .h5 {
@@ -336,16 +335,6 @@ a:hover, a.text-dark:hover {
 
 .bg-secondary {
   background: #fdefe6 !important;
-}
-
-.bg-secondary {
-  background: #ffffff !important;
-  border-top-color: #f0b323;
-  border-top-width: 8px;
-  border-top-style: solid;
-  border-bottom-color: #f0b323;
-  border-bottom-width: 8px;
-  border-bottom-style: solid;
 }
 
 .text-primary {
@@ -860,29 +849,3 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
-
-
-.navbar-brand {
- font-size:2.25rem;
-}
-
-ol,
-ul {
-  list-style-type: disc;
-}
-
-
-
-table {
-  border-collapse: collapse;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-table, th, td {
-  border: 1px solid black;
-}
-
-th, td {
-	padding: 5px 5px 5px 5px;
-}
