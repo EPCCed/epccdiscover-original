@@ -62,14 +62,14 @@ author:
 #-------------------------------
 # Contact Info
 contact:
-#  email: l.smith@epcc.ed.ac.uk
+  email: helpdesk@epcc.ed.ac.uk  
 #  phone: +44 (0)131 650 5030
   address:
     city: Edinburgh
     street: Bayes Centre, 47 Potterrow, Edinburgh EH8 9BT
 
 # Contact Form
-# contact-form: l.smith@epcc.ed.ac.uk
+# contact-form: helpdesk@epcc.ed.ac.uk  
 
 # Social links
 social:
