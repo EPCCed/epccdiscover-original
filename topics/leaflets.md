@@ -6,12 +6,19 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2>{{ page.title }}Hardware</h2>
+        <h2>{{ page.title }}Leaflets</h2>
       </div>
     </div>
   </div>
 </section>
 <!-- /page-title -->
+
+<section>
+  <div class="container">
+	<br/><br/>
+	<a class="text-dark" href="../leaflets-list">List view</a>
+  </div>
+</section>
 
 <!-- category post -->
 <section>
@@ -19,8 +26,8 @@ layout: default
     <div class="row">
       <div class="col-lg-8">
         <div class="row masonry-container pt-5">
-          {% assign hardware_posts = site.posts | where_exp: "post", " post.categories contains 'Hardware' " %}
-          {% for post in hardware_posts %}
+          {% assign leaflet_posts = site.posts | where_exp: "post", " post.categories contains 'Leaflets' " %}
+          {% for post in leaflet_posts %}
 
           <div class="col-sm-6 mb-5">
             <article class="text-center">
@@ -40,6 +47,6 @@ layout: default
       {% include sidebar.html %}
       </div>
     </div>
-  </div>
+
 </section>
 <!-- /category post -->
