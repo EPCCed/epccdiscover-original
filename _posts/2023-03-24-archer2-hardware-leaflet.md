@@ -3,8 +3,8 @@ layout: post
 title: ARCHER2 Hardware
 date: 2023-03-24 11:00
 description: Leaflet about the ARCHER2 hardware
-featured: 
-tall-image: 
+featured: true
+tall-image: "images/hardware-leaflet-tall.jpg"
 image: "images/hardware-leaflet.jpg"
 categories: 
   - Hardware
