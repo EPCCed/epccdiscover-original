@@ -16,7 +16,7 @@ This is a comprehensive list of our resources for your own activities.
 Further details and explanations can be found in the "What is a supercomputer?", "Why are supercomputers important?" and "How do you use supercomputers?" sections.
 
 -     [Archie2 plane flyer]({{ base.url }}/docs/paper-plane-discover.pdf) : print the flyer double-sided, with the flip taking place on the long edge of the paper for things to align properly.  [Full instructions]({{ base.url }}/activities/2023/01/27/paper-plane/).
--  [Read our flyer]({{ base.url }}/docs/outreach-flyer.pdf) to find out: 
+-  [Read our "What is a supercomuter?" flyer]({{ base.url }}/docs/outreach-flyer.pdf) to find out: 
     - What is a supercomputer? 
     - Why are they important?  
     - How do you use one? 

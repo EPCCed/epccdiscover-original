@@ -23,6 +23,8 @@ menu:
        url: /topics/hardware/
      - name: Activities
        url: /topics/activities/
+     - name: Leaflets
+       url: /topics/leaflets/
      - name: ARCHER2 EPCC outreach online interactive site
        url: https://outreach.epcc.ed.ac.uk/
   - name: About
