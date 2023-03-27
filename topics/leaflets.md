@@ -6,21 +6,19 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2>{{ page.title }}</h2>
+        <h2>{{ page.title }}Leaflets</h2>
       </div>
     </div>
   </div>
 </section>
 <!-- /page-title -->
 
-
-
-
-
-
-
-
-
+<section>
+  <div class="container">
+	<br/><br/>
+	<a class="text-dark" href="../leaflets-list">List view</a>
+  </div>
+</section>
 
 <!-- category post -->
 <section>
@@ -28,12 +26,14 @@ layout: default
     <div class="row">
       <div class="col-lg-8">
         <div class="row masonry-container pt-5">
-          {% for post in page.posts %}
+          {% assign leaflet_posts = site.posts | where_exp: "post", " post.categories contains 'Leaflets' " %}
+          {% for post in leaflet_posts %}
+
           <div class="col-sm-6 mb-5">
             <article class="text-center">
               <img class="img-fluid mb-4" src="{{post.image | relative_url }}" alt="{{post.title}}">
               {% for category in post.categories %}
-              <a class="d-block mb-3 text-dark text-uppercase" href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
+              <a class="d-block mb-3 text-dark text-uppercase" href="{{ 'topics/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
               {% endfor %}
               <h4 class="title-border"><a class="text-dark" href="{{ post.url | relative_url }}">{{post.title}}</a></h4>
               <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
@@ -47,6 +47,6 @@ layout: default
       {% include sidebar.html %}
       </div>
     </div>
-  </div>
+
 </section>
 <!-- /category post -->

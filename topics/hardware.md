@@ -6,20 +6,30 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2>{{ page.title }}All Topics</h2>
+        <h2>{{ page.title }}Hardware</h2>
       </div>
     </div>
   </div>
 </section>
 <!-- /page-title -->
 
+<section>
+  <div class="container">
+	<br/><br/>
+	<a class="text-dark" href="../hardware-list">List view</a>
+  </div>
+</section>
+
 <!-- category post -->
 <section>
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
+
         <div class="row masonry-container pt-5">
-          {% for post in site.posts %}
+          {% assign hardware_posts = site.posts | where_exp: "post", " post.categories contains 'Hardware' " %}
+          {% for post in hardware_posts %}
+
           <div class="col-sm-6 mb-5">
             <article class="text-center">
               <img class="img-fluid mb-4" src="{{post.image | relative_url }}" alt="{{post.title}}">
@@ -38,6 +48,6 @@ layout: default
       {% include sidebar.html %}
       </div>
     </div>
-  </div>
+
 </section>
 <!-- /category post -->

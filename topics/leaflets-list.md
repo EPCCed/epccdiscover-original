@@ -1,12 +1,12 @@
 ---
-layout: section
+layout: post-list
 title: Leaflets
 banner: web_banners_10.jpg
 tags: [Chemistry and Materials, Earth Sciences and Environment, Engineering and Energy,  Mathematics and Computer Science]
 ---
 
   
-
+<a class="text-dark" href="../leaflets">Tabbed view</a>
 
 
 <!-- Now display all the posts, in date code order, newest first -->
@@ -26,7 +26,7 @@ tags: [Chemistry and Materials, Earth Sciences and Environment, Engineering and 
 	<div class="cstext">
 
 
-			<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+			<h3><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 	
 
 
@@ -34,9 +34,9 @@ tags: [Chemistry and Materials, Earth Sciences and Environment, Engineering and 
 
 
 		<p>
-          {{ post.content | strip_html }}
+          {{ post.content | strip_html | truncatewords: 45 }}
 		 
-           Read more...</a>
+          <br/> <a class="btn btn-transparent" href="{{ post.url | relative_url }}">Read more...</a>
 		</p>
 
 	</div>
