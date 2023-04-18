@@ -32,6 +32,22 @@ When talking about bytes and FLOPS, the numbers can get very large. To make thes
 |Exa|1,000,000,000,000,000,000   |EB   |EFLOPS   |
 
 
-## Travel back in time to see the machines hosted at EPCC over the years.
+### Travel back in time to see the machines hosted at EPCC over the years.
 
 <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1boHFQWFYaYlWdxmU_iwRoJHfNX3HkjXa8FePLXz-nLw&font=Default&lang=en&start_at_end=true&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+
+
+
+<!--
+
+The timeline is generated using TimelineJS
+https://timeline.knightlab.com/index.html#make
+
+The Google Sheet is in the ARCHER2 google docs folder
+https://docs.google.com/spreadsheets/d/1boHFQWFYaYlWdxmU_iwRoJHfNX3HkjXa8FePLXz-nLw/edit#gid=0
+
+The images are in the ARCHER2 flickr
+https://www.flickr.com/photos/189745519@N02/albums/72157715525539433
+
+
+-->
