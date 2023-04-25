@@ -1,7 +1,7 @@
 ---
 layout: post
 title: History of Machines
-date: 2023-01-01 10:00
+date: 2023-04-25 10:00
 description: Resources
 featured: 
 tall-image: 
