@@ -26,3 +26,5 @@ Captured using a Sony A7iv camera, our virtual tour offers high-resolution image
 <a href="https://kuula.co/share/collection/7c4Jv?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1" title="Take the tour">
 ![Virtual tour of ARCHER2]({{site.base_url}}/images/virtual-tour-2.jpg)
 </a>
+
+*Photographs thanks to Luca Parisi EPCC*
