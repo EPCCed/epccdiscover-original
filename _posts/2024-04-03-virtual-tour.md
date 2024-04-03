@@ -6,7 +6,7 @@ description: Hardware virtual tour
 featured: 
 tall-image: 
 image: "images/virtual-tour.jpg"
-author: 
+author: Spyro Nita
 categories: 
   - Hardware
   - Activities
