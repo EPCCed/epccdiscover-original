@@ -24,7 +24,7 @@ Build your own supercomputer and process as many jobs as quickly as possible. Th
 
 ## Wee Archie
 
-Meet Wee Archie, our mini ARCHER. A portable, functional cluster to demonstrate applications and concepts of HPC to the wider public. [Find out more here](/activities/hardware/2023/01/01/wee-archie/).
+Meet Wee Archie, our mini ARCHER. A portable, functional cluster to demonstrate applications and concepts of HPC to the wider public. [Find out more here](/hardware/activities/2023/01/10/wee-archie/).
 
 ## The evolution of high performance computing at EPCC
 
